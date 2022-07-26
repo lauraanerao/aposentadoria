@@ -91,8 +91,7 @@
                     
                     $resultado = quantMeses($meses, $anos);
                     
-                   echo "<div class='mt-3 alert alert-success text-center'> Dentro de $anos anos a quantidade de vezes que $meses meses se repete é " .
-                       round($resultado['qntMeses'],2) . ", portanto aposenta-se na Letra " . $resultado['letra'] . '</div>';
+                    echo "<div class='mt-3 alert alert-success text-center'><h4>Letra " . $resultado['letra'] . ".</h4></div>";
                 }
             }
             ?>
