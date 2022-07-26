@@ -91,7 +91,7 @@
                     
                     $resultado = quantMeses($meses, $anos);
                     
-                    echo "<div class='mt-3 alert alert-success text-center'><h4>Letra " . $resultado['letra'] . ".</h4></div>";
+                   echo "<div class='mt-3 alert alert-success text-center'><h4>Letra " . $resultado['letra'] . ".</h4></div>";
                 }
             }
             ?>
@@ -103,22 +103,17 @@
 
 <footer class="text-muted fixed-bottom">
     <div class="container">
-       <div class="row">
-           <div class="col-md-6">
-               <p class="text-left">
-                   <a href="https://github.com/lauraanerao" target="_blank">
-                           <span class="fa fa-github"></span> Laura Anerão
-                   </a>
-               </p>
-           </div>
-           <div class="col-md-6">
-               <p class="text-right">
-                   <a href="https://1drv.ms/w/s!AuieGz2hTCkmgu4YYci9Q0Fbngghyw?e=PiPOfp" target="_blank">
-                          <span class="fa fa-download"></span> Download Tabela feita por Jeanine
-                   </a>
-               </p>
-           </div>
-       </div>
+        <p>
+            <a href="https://1drv.ms/w/s!AuieGz2hTCkmgu4YYci9Q0Fbngghyw?e=PiPOfp" target="_blank">
+                <span class="fa fa-download"></span> Download Tabela feita por Jeanine
+            </a>
+        </p>
+        
+        <p>
+            <a href="https://github.com/lauraanerao" target="_blank">
+                <span class="fa fa-github"></span> Laura Anerão
+            </a>
+        </p>
     </div>
 </footer>
 
